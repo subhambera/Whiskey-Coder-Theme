@@ -1,0 +1,20 @@
+{
+  "name": "whiskey-coder-dark",
+  "displayName": "Whiskey Coder Theme",
+  "description": "A rich, warm whiskey-inspired theme for VS Code with both dark and light variants",
+  "version": "1.0.0",
+  
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Whiskey Coder Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Whiskey-Coder-Dark.json"
+      }
+    ]
+  }
+}
