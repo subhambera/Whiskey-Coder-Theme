@@ -4,7 +4,7 @@
 
 A rich, warm whiskey-inspired theme for Visual Studio Code that brings the sophisticated ambiance of aged spirits to your coding experience.
 
-![Whiskey Coder Logo](.vscode/Screenshots/logo.jpg)
+![Whiskey Coder Logo](Screenshots\HTML.jpg)
 
 ## 🌟 Features
 
@@ -25,7 +25,8 @@ A rich, warm whiskey-inspired theme for Visual Studio Code that brings the sophi
 ## 📸 Screenshots
 
 ### Dark Theme
-![Dark Theme Preview](.vscode/Screenshots)
+![Screenshots](Screenshots)
+
 
 
 ## 🚀 Installation
