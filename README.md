@@ -34,11 +34,11 @@
 <div align="center">
   
 ### 🌙 Dark Theme Preview
-<img src="./Screenshots/dark-theme-preview.png" alt="Whiskey Coder Dark Theme" width="800">
+<img src="./Screenshots/dark-theme-preview.jpg" alt="Whiskey Coder Dark Theme" width="800">
 <p><em>Rich, warm dark theme with deep whiskey barrel tones</em></p>
 
 ### ☀️ Light Theme Preview  
-<img src="./Screenshots/light-theme-preview.png" alt="Whiskey Coder Light Theme" width="800">
+<img src="./Screenshots/light-theme-preview.jpg" alt="Whiskey Coder Light Theme" width="800">
 <p><em>Elegant light theme with golden honey and cream accents</em></p>
 
 ### 🔄 Side-by-Side Comparison
@@ -48,8 +48,8 @@
     <th>☀️ Light Theme</th>
   </tr>
   <tr>
-    <td><img src="./Screenshots/dark-syntax.png" alt="Dark Syntax" width="400"></td>
-    <td><img src="./Screenshots/light-syntax.png" alt="Light Syntax" width="400"></td>
+    <td><img src="./Screenshots/dark-syntax.jpg" alt="Dark Syntax" width="400"></td>
+    <td><img src="./Screenshots/light-syntax.jpg" alt="Light Syntax" width="400"></td>
   </tr>
   <tr>
     <td align="center"><em>Deep, rich syntax highlighting</em></td>
@@ -124,7 +124,7 @@ Inspired by morning whiskey tastings and honey-colored spirits:
 ### Method 2: Manual Installation
 ```bash
 # Clone the repository
-git clone https://github.com/subhambera/whiskey-coder-dark-Theme.git
+git clone https://github.com/subhambera/whiskey-coder-Theme.git
 
 # Copy to VS Code extensions folder
 # Windows: %USERPROFILE%\.vscode\extensions
@@ -298,26 +298,13 @@ We welcome contributions to improve both theme variants!
 
 ---
 
-## 🏆 User Testimonials
-
-> *"The dark theme is perfect for my late-night coding sessions. The whiskey-inspired colors are so soothing!"*  
-> **— Developer, San Francisco**
-
-> *"Finally, a light theme that doesn't hurt my eyes! The cream and honey tones are beautiful."*  
-> **— Designer, London**
-
-> *"Having both variants means I can switch based on my environment. Brilliant execution!"*  
-> **— Full-stack Developer, Tokyo**
-
----
-
 ## 📄 License & Credits
 
-**License**: MIT License - see [LICENSE](LICENSE) for details
+**License**: MIT License - see [License.md](LICENSE) for details
 
 **Created by**: [Subham Bera](https://github.com/subhambera)
 
-**Repository**: [whiskey-coder-dark-Theme](https://github.com/subhambera/whiskey-coder-dark-Theme)
+**Repository**: [Whiskey-Coder-Theme](https://github.com/subhambera/Whiskey-Coder-Theme)
 
 ---
 
@@ -327,8 +314,8 @@ We welcome contributions to improve both theme variants!
 
 If the Whiskey Coder Theme Collection enhances your development experience:
 
-[![Star on GitHub](https://img.shields.io/github/stars/subhambera/whiskey-coder-dark-Theme?style=social)](https://github.com/subhambera/whiskey-coder-dark-Theme)
-[![Rate on Marketplace](https://img.shields.io/badge/Rate-VS%20Code%20Marketplace-blue?style=social&logo=visualstudiocode)](https://marketplace.visualstudio.com)
+[![Star on GitHub](https://img.shields.io/github/stars/subhambera/whiskey-coder-Theme?style=social)](https://github.com/subhambera/whiskey-coder-Theme)
+[![Rate on Marketplace](https://marketplace.visualstudio.com/items?itemName=SubhamBera.whiskey-coder-dark)](https://marketplace.visualstudio.com)
 
 **🌟 Star the repo • 📝 Write a review • 🔄 Share with friends • ☕ [Buy me a coffee](https://buymeacoffee.com/subhambera)**
 
