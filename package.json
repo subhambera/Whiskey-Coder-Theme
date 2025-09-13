@@ -1,9 +1,24 @@
 {
   "name": "whiskey-coder-dark",
   "displayName": "Whiskey Coder Theme",
-  "description": "A rich, warm whiskey-inspired theme for VS Code with both dark and light variants",
+  "description": "A rich, warm whiskey-inspired theme for VS Code with dark mode.",
   "version": "1.0.0",
-  
+  "publisher": "SubhamBera",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/subhambera/whiskey-coder-dark-Theme"
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "whiskey",
+    "whiskeycoder",
+    "whiskey coder",
+    "whiskey-coder",
+    "coder",
+    "vscode",
+    "visual studio code"
+  ],
   "engines": {
     "vscode": "^1.74.0"
   },
