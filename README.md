@@ -1,161 +1,236 @@
-# whiskey-coder-dark README
+# 🥃 Whiskey Coder Dark Theme
 
-# 🥃 Whiskey Coder Theme
+> *A sophisticated, whiskey-inspired dark theme for Visual Studio Code that transforms your coding environment into a warm, elegant workspace.*
 
-A rich, warm whiskey-inspired theme for Visual Studio Code that brings the sophisticated ambiance of aged spirits to your coding experience.
+<div align="center">
 
-![Whiskey Coder Logo](Screenshots\HTML.jpg)
+![Version](https://img.shields.io/badge/version-1.0.0-D4A574?style=for-the-badge)
+![VS Code](https://img.shields.io/badge/VS%20Code-1.74+-blue?style=for-the-badge&logo=visualstudiocode)
+![Theme](https://img.shields.io/badge/theme-dark-8B6F47?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
 
-## 🌟 Features
+</div>
 
-- **Dual Themes**: Both Dark and Light variants inspired by whiskey tones
-- **Eye-friendly Colors**: Carefully crafted color palette that reduces eye strain during long coding sessions
-- **Rich Syntax Highlighting**: Optimized for multiple programming languages
-- **Warm Aesthetic**: Amber, golden, and oak-barrel inspired colors create a cozy coding environment
-- **Professional Design**: Perfect balance between style and functionality
+---
 
-## 🎨 Color Palette
+## 🌟 Overview
 
-### Dark Theme
-- **Background**: Deep whiskey barrel (`#1a0f0a`)
-- **Foreground**: Rich cream (`#e6d4b7`)
-- **Accents**: Golden amber (`#d4a574`, `#daa520`)
-- **Highlights**: Aged oak and bourbon tones
+Whiskey Coder Dark brings the rich, sophisticated ambiance of aged spirits to your development environment. Inspired by the warm golden hues of premium whiskey, oak barrel textures, and amber lighting, this theme creates a comfortable coding atmosphere that's easy on the eyes during those long coding sessions.
 
 ## 📸 Screenshots
 
-### Dark Theme
-![Screenshots](Screenshots)
+<div align="center">
+  <img src="./Screenshots/HTML.jpg" alt="HTML Syntax Highlighting" width="800">
+  <p><em>Rich syntax highlighting with whiskey-inspired colors</em></p>
+</div>
 
+### Language Support Examples
 
+<details>
+<summary>🔍 View More Language Examples</summary>
+
+<!-- Add more screenshots here as you create them -->
+- JavaScript/TypeScript
+- HTML/CSS  
+- JSON/YAML
+- Python
+- Java
+- And many more!
+
+</details>
+
+## 🎨 Color Philosophy
+
+Our carefully curated color palette draws inspiration from the world of fine whiskey:
+
+| Element | Color | Inspiration |
+|---------|-------|-------------|
+| **Background** | `#1a0f0a` | Deep whiskey barrel |
+| **Foreground** | `#e6d4b7` | Rich cream foam |
+| **Primary Accent** | `#d4a574` | Golden amber |
+| **Secondary Accent** | `#daa520` | Aged bourbon |
+| **Highlights** | Various oak & bourbon tones | Aged wood & spirits |
 
 ## 🚀 Installation
 
-### From VS Code Marketplace
-1. Open VS Code
-2. Go to Extensions (`Ctrl+Shift+X` or `Cmd+Shift+X`)
-3. Search for "Whiskey Coder"
-4. Click "Install"
-5. Select the theme: `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T`)
+### Method 1: VS Code Marketplace *(Recommended)*
+1. Open Visual Studio Code
+2. Navigate to Extensions (`Ctrl+Shift+X` / `Cmd+Shift+X`)
+3. Search for **"Whiskey Coder Dark"**
+4. Click **Install**
+5. Activate: `Ctrl+K Ctrl+T` → Select "Whiskey Coder Dark"
 
-### Manual Installation
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/subhambera/whiskey-coder-dark-Theme.git
-   ```
-2. Copy the extension folder to your VS Code extensions directory:
-   - **Windows**: `%USERPROFILE%\.vscode\extensions`
-   - **macOS**: `~/.vscode/extensions`
-   - **Linux**: `~/.vscode/extensions`
-3. Restart VS Code
-4. Select the theme: `Ctrl+K Ctrl+T` (or `Cmd+K Cmd+T`)
+### Method 2: Manual Installation
+```bash
+# Clone the repository
+git clone https://github.com/subhambera/whiskey-coder-dark-Theme.git
 
-### From VSIX
-1. Download the `.vsix` file from [Releases](https://github.com/subhambera/whiskey-coder-dark-Theme/releases)
-2. Open VS Code
-3. Press `Ctrl+Shift+P` (or `Cmd+Shift+P`)
-4. Type "Install from VSIX" and select it
-5. Choose the downloaded `.vsix` file
+# Copy to VS Code extensions folder
+# Windows: %USERPROFILE%\.vscode\extensions
+# macOS/Linux: ~/.vscode/extensions
+```
 
-## 🎯 Supported Languages
+### Method 3: VSIX Package
+1. Download `.vsix` from [Releases](https://github.com/subhambera/whiskey-coder-dark-Theme/releases)
+2. Command Palette (`Ctrl+Shift+P`) → **"Extensions: Install from VSIX..."**
+3. Select the downloaded file
 
-This theme provides optimized syntax highlighting for:
+## ✨ Features
 
-- JavaScript/TypeScript
-- JSON/YAML
-- And many more!
+- 🎯 **Optimized Readability** - Carefully balanced contrast ratios
+- 🖥️ **Multi-Language Support** - Enhanced syntax highlighting for popular languages
+- 👁️ **Eye-Friendly** - Reduced eye strain with warm, muted tones
+- 🎨 **Consistent Design** - Cohesive color scheme across all VS Code elements
+- ⚡ **Performance Focused** - Lightweight theme with no performance impact
 
-## 🔧 Customization
+## 🛠️ Customization
 
-Want to customize the theme? You can override specific colors in your VS Code settings:
+Personalize the theme by adding these settings to your VS Code `settings.json`:
 
-```json
+```jsonc
 {
   "workbench.colorCustomizations": {
     "[Whiskey Coder Dark]": {
-      "editor.background": "#your-custom-color"
-    },
-    "[Whiskey Coder Light]": {
-      "editor.background": "#your-custom-color"
+      // Customize editor background
+      "editor.background": "#1a0f0a",
+      
+      // Adjust sidebar colors
+      "sideBar.background": "#141008",
+      
+      // Modify terminal colors
+      "terminal.background": "#1a0f0a"
+    }
+  },
+  
+  "editor.tokenColorCustomizations": {
+    "[Whiskey Coder Dark]": {
+      // Override specific syntax colors
+      "comments": "#8b6f47",
+      "strings": "#cd853f"
     }
   }
 }
 ```
 
+## 🔧 Development
+
+### Quick Start
+```bash
+# Clone and navigate
+git clone https://github.com/subhambera/whiskey-coder-dark-Theme.git
+cd whiskey-coder-dark-Theme
+
+# Open in VS Code
+code .
+
+# Press F5 to launch Extension Development Host
+```
+
+### File Structure
+```
+whiskey-coder-dark-Theme/
+├── 📁 themes/
+│   └── Whiskey-Coder-Dark.json     # Main theme file
+├── 📁 Screenshots/                  # Theme previews
+├── 📄 package.json                 # Extension manifest
+├── 📄 README.md                    # This file
+├── 📄 CHANGELOG.md                 # Version history
+└── 📄 LICENSE                      # MIT License
+```
+
 ## 🤝 Contributing
 
-We welcome contributions! Here's how you can help:
+We welcome contributions from the community! Here's how to get involved:
 
-1. Fork this repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
+<details>
+<summary>📋 Contribution Guidelines</summary>
+
+### Ways to Contribute
+- 🐛 **Report Bugs** - Found an issue? [Open an issue](https://github.com/subhambera/whiskey-coder-dark-Theme/issues)
+- 💡 **Suggest Features** - Have ideas? We'd love to hear them!
+- 🎨 **Improve Colors** - Submit pull requests for color improvements
+- 📝 **Documentation** - Help improve our docs
+
+### Development Process
+1. Fork the repository
+2. Create feature branch: `git checkout -b feature/amazing-improvement`
 3. Make your changes
-4. Commit your changes: `git commit -m 'Add amazing feature'`
-5. Push to the branch: `git push origin feature/amazing-feature`
-6. Open a Pull Request
+4. Test thoroughly in VS Code
+5. Commit: `git commit -m 'feat: add amazing improvement'`
+6. Push: `git push origin feature/amazing-improvement`
+7. Submit a Pull Request
 
-### Development Setup
+</details>
 
-1. Clone the repository
-2. Open in VS Code
-3. Press `F5` to launch Extension Development Host
-4. Make changes to theme files
-5. Reload the Extension Development Host to see changes
+## 🐛 Issues & Support
 
-## 📝 Changelog
+Encountered a problem? Please help us improve by reporting it!
 
-### Version 1.0.0
-- Initial release
-- Added Whiskey Coder Dark theme
-- Added Whiskey Coder Light theme
-- Comprehensive syntax highlighting support
-
-## 🐛 Issues & Feedback
-
-Found a bug or have a suggestion? Please open an issue on our [GitHub repository](https://github.com/subhambera/whiskey-coder-dark-Theme/issues).
-
-When reporting issues, please include:
-- VS Code version
+**When reporting issues, include:**
+- VS Code version (`Help > About`)
 - Theme version
+- Operating system
 - Programming language
-- Screenshot (if applicable)
+- Screenshots (if visual issue)
+
+[🔗 Report Issue](https://github.com/subhambera/whiskey-coder-dark-Theme/issues/new)
 
 ## 📋 Requirements
 
-- Visual Studio Code version 1.74.0 or higher
+- **VS Code**: Version 1.74.0 or higher
+- **System**: Windows, macOS, or Linux
+
+## 📈 Changelog
+
+### [1.0.0] - Initial Release
+- ✨ Initial Whiskey Coder Dark theme
+- 🎨 Comprehensive syntax highlighting
+- 📱 Full VS Code UI theming
+- 📚 Multi-language support
+
+*For detailed changes, see [CHANGELOG.md](CHANGELOG.md)*
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** - see [LICENSE](LICENSE) for details.
 
 ## 👨‍💻 Author
 
+<div align="center">
+
 **Subham Bera**
-- GitHub: [@subhambera](https://github.com/subhambera)
-- Repository: [whiskey-coder-dark-Theme](https://github.com/subhambera/whiskey-coder-dark-Theme)
+
+[![GitHub](https://img.shields.io/badge/GitHub-subhambera-181717?style=for-the-badge&logo=github)](https://github.com/subhambera)
+[![Repository](https://img.shields.io/badge/Repository-whiskey--coder--dark--Theme-D4A574?style=for-the-badge&logo=github)](https://github.com/subhambera/whiskey-coder-dark-Theme)
+
+*Crafted with ❤️ and passion for elegant code*
+
+</div>
 
 ## 🙏 Acknowledgments
 
-- Inspired by the rich, warm tones of aged whiskey
-- Built with ❤️ for the coding community
-- Thanks to all contributors and users
+- 🥃 **Inspiration**: The rich, complex world of aged whiskey
+- 🌍 **Community**: VS Code theme developers and users
+- 🎨 **Design**: Color theory and accessibility guidelines
 
 ## ⭐ Show Your Support
 
-If you like this theme, please:
-- Give it a ⭐ on GitHub
-- Rate it on the VS Code Marketplace
-- Share it with fellow developers
-- Consider [buying me a coffee](https://buymeacoffee.com/subhambera) ☕
+If Whiskey Coder Dark enhances your coding experience:
+
+<div align="center">
+
+[![Star on GitHub](https://img.shields.io/github/stars/subhambera/whiskey-coder-dark-Theme?style=social)](https://github.com/subhambera/whiskey-coder-dark-Theme)
+
+**🌟 Star the repo • 🔄 Share with friends • ☕ [Buy me a coffee](https://buymeacoffee.com/subhambera)**
+
+</div>
 
 ---
 
-**Enjoy coding with the warm, rich tones of Whiskey Coder! 🥃✨**
+<div align="center">
 
-*"Code like you're savoring a fine whiskey - with patience, appreciation, and style."*
+### *"Code like you're savoring a fine whiskey - with patience, appreciation, and style."*
 
-## For more information
+**Happy Coding! 🥃✨**
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+</div>
