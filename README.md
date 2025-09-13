@@ -315,7 +315,8 @@ We welcome contributions to improve both theme variants!
 If the Whiskey Coder Theme Collection enhances your development experience:
 
 [![Star on GitHub](https://img.shields.io/github/stars/subhambera/whiskey-coder-Theme?style=social)](https://github.com/subhambera/whiskey-coder-Theme)
-[![Rate on Marketplace](https://marketplace.visualstudio.com/items?itemName=SubhamBera.whiskey-coder-dark)](https://marketplace.visualstudio.com)
+[![Rate on Marketplace](https://img.shields.io/badge/Rate-VS%20Code%20Marketplace-blue?style=social&logo=visualstudiocode)](https://marketplace.visualstudio.com/items?itemName=SubhamBera.whiskey-coder-dark)
+
 
 **🌟 Star the repo • 📝 Write a review • 🔄 Share with friends • ☕ [Buy me a coffee](https://buymeacoffee.com/subhambera)**
 
