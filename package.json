@@ -1,7 +1,7 @@
 {
-  "name": "whiskey-coder-dark",
+  "name": "whiskey-coder-theme",
   "displayName": "Whiskey Coder Theme",
-  "description": "A rich, warm whiskey-inspired theme for VS Code with dark mode.",
+  "description": "A rich, warm whiskey-inspired theme for VS Code with both light and dark varients",
   "version": "1.2.0",
   "publisher": "SubhamBera",
   "repository": {
@@ -32,6 +32,11 @@
         "label": "Whiskey Coder Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/Whiskey-Coder-Dark.json"
+      },
+      {
+        "label": "Whiskey Coder Light",
+        "uiTheme": "vs",
+        "path": "./themes/Whiskey-Coder-Light.json"
       }
     ]
   }

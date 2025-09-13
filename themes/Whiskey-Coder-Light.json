@@ -1,0 +1,169 @@
+{
+  "name": "Whiskey Coder Light",
+  "type": "light",
+  "colors": {
+    "editor.background": "#faf7f0",
+    "editor.foreground": "#5d4037",
+    "editorCursor.foreground": "#8d6e63",
+    "editor.lineHighlightBackground": "#f5f2eb",
+    "editor.selectionBackground": "#e8ddc7",
+    "editor.selectionHighlightBackground": "#f0e6d2",
+    
+    "activityBar.background": "#f0ead6",
+    "activityBar.foreground": "#6d4c41",
+    "activityBar.inactiveForeground": "#a1887f",
+    "activityBarBadge.background": "#d4a574",
+    "activityBarBadge.foreground": "#ffffff",
+    
+    "sideBar.background": "#f5f2eb",
+    "sideBar.foreground": "#5d4037",
+    "sideBarTitle.foreground": "#6d4c41",
+    "sideBarSectionHeader.background": "#ede7da",
+    "sideBarSectionHeader.foreground": "#6d4c41",
+    
+    "tab.activeBackground": "#faf7f0",
+    "tab.activeForeground": "#5d4037",
+    "tab.inactiveBackground": "#f0ead6",
+    "tab.inactiveForeground": "#8d6e63",
+    "tab.border": "#d7cc9a",
+    "tab.activeBorder": "#d4a574",
+    
+    "statusBar.background": "#e8ddc7",
+    "statusBar.foreground": "#5d4037",
+    "statusBar.debuggingBackground": "#d4a574",
+    "statusBar.debuggingForeground": "#ffffff",
+    
+    "titleBar.activeBackground": "#f0ead6",
+    "titleBar.activeForeground": "#5d4037",
+    "titleBar.inactiveBackground": "#f5f2eb",
+    "titleBar.inactiveForeground": "#a1887f",
+    
+    "input.background": "#ffffff",
+    "input.foreground": "#5d4037",
+    "input.border": "#d7cc9a",
+    "input.placeholderForeground": "#a1887f",
+    
+    "dropdown.background": "#ffffff",
+    "dropdown.foreground": "#5d4037",
+    "dropdown.border": "#d7cc9a",
+    
+    "button.background": "#d4a574",
+    "button.foreground": "#ffffff",
+    "button.hoverBackground": "#c19a6b",
+    
+    "list.activeSelectionBackground": "#e8ddc7",
+    "list.activeSelectionForeground": "#5d4037",
+    "list.hoverBackground": "#f0e6d2",
+    "list.inactiveSelectionBackground": "#f0e6d2",
+    
+    "panel.background": "#f5f2eb",
+    "panel.border": "#d7cc9a",
+    "panelTitle.activeForeground": "#5d4037",
+    "panelTitle.inactiveForeground": "#8d6e63",
+    
+    "terminal.background": "#faf7f0",
+    "terminal.foreground": "#5d4037",
+    "terminal.ansiBlack": "#3e2723",
+    "terminal.ansiRed": "#d32f2f",
+    "terminal.ansiGreen": "#388e3c",
+    "terminal.ansiYellow": "#f57c00",
+    "terminal.ansiBlue": "#1976d2",
+    "terminal.ansiMagenta": "#7b1fa2",
+    "terminal.ansiCyan": "#0097a7",
+    "terminal.ansiWhite": "#5d4037",
+    
+    "scrollbar.shadow": "#00000011",
+    "scrollbarSlider.background": "#d7cc9a66",
+    "scrollbarSlider.hoverBackground": "#d7cc9a99",
+    "scrollbarSlider.activeBackground": "#d7cc9acc",
+    
+    "editorWidget.background": "#f0ead6",
+    "editorWidget.border": "#d7cc9a",
+    "editorWidget.foreground": "#5d4037"
+  },
+  "tokenColors": [
+    {
+      "name": "Comment",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "fontStyle": "italic",
+        "foreground": "#8d6e63"
+      }
+    },
+    {
+      "name": "Variables",
+      "scope": ["variable", "string constant.other.placeholder"],
+      "settings": {
+        "foreground": "#5d4037"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": "keyword",
+      "settings": {
+        "foreground": "#6d4c41",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Storage",
+      "scope": "storage.type",
+      "settings": {
+        "foreground": "#8d6e63",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "settings": {
+        "foreground": "#bf6000"
+      }
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "settings": {
+        "foreground": "#d4a574"
+      }
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function",
+      "settings": {
+        "foreground": "#8d6e63",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Class name",
+      "scope": "entity.name.class",
+      "settings": {
+        "foreground": "#6d4c41",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Object",
+      "scope": "variable.other.object",
+      "settings": {
+        "foreground": "#795548"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": "keyword.operator",
+      "settings": {
+        "foreground": "#8d6e63"
+      }
+    },
+    {
+      "name": "Import/Export",
+      "scope": ["keyword.control.import", "keyword.control.export"],
+      "settings": {
+        "foreground": "#6d4c41",
+        "fontStyle": "italic"
+      }
+    }
+  ]
+}
