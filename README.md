@@ -4,7 +4,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-1.2.0-D4A574?style=for-the-badge)
+![Version](https://img.shields.io/badge/version-2.0.0-D4A574?style=for-the-badge)
 ![VS Code](https://img.shields.io/badge/VS%20Code-1.74+-blue?style=for-the-badge&logo=visualstudiocode)
 ![Themes](https://img.shields.io/badge/themes-dark%20%26%20light-8B6F47?style=for-the-badge)
 ![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
