@@ -4,7 +4,7 @@
 
 A rich, warm whiskey-inspired theme for Visual Studio Code that brings the sophisticated ambiance of aged spirits to your coding experience.
 
-![Whiskey Coder Logo](./images/logo.png)
+![Whiskey Coder Logo](.vscode/Screenshots/logo.jpg)
 
 ## 🌟 Features
 
@@ -22,19 +22,11 @@ A rich, warm whiskey-inspired theme for Visual Studio Code that brings the sophi
 - **Accents**: Golden amber (`#d4a574`, `#daa520`)
 - **Highlights**: Aged oak and bourbon tones
 
-### Light Theme  
-- **Background**: Creamy whiskey (`#faf7f0`)
-- **Foreground**: Rich brown (`#5d4037`)
-- **Accents**: Honey and caramel tones
-- **Highlights**: Light oak and champagne shades
-
 ## 📸 Screenshots
 
 ### Dark Theme
-![Dark Theme Preview](./images/dark-preview.png)
+![Dark Theme Preview](.vscode/Screenshots)
 
-### Light Theme
-![Light Theme Preview](./images/light-preview.png)
 
 ## 🚀 Installation
 
@@ -69,16 +61,7 @@ A rich, warm whiskey-inspired theme for Visual Studio Code that brings the sophi
 This theme provides optimized syntax highlighting for:
 
 - JavaScript/TypeScript
-- Python
-- Java
-- C/C++
-- C#
-- Go
-- Rust
-- PHP
-- HTML/CSS
 - JSON/YAML
-- Markdown
 - And many more!
 
 ## 🔧 Customization
